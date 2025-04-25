@@ -1,24 +1,24 @@
-# DotVest Core
-
-This is the central coordination repo for **DotVest**, Africa’s onchain stock exchange. We’re building a tokenized stock trading platform starting with Nigerian equities, powered by Base and ZetaChain.
-
-## Contents
-- Whitepaper & pitch deck
-- Regulatory and compliance documentation
-- System architecture
-- Roadmap and grant plans
-- Links to all project repos
-
 ## Project Repos
-- [dotvest-contracts](https://github.com/dotvestxyz/dotvest-contracts) — smart contracts
-- [dotvest-frontend](https://github.com/dotvestxyz/dotvest-frontend) — web app
-- [dotvest-broker-gateway](https://github.com/dotvestxyz/dotvest-broker-gateway) — broker/custodian API backend
-- [dotvest-docs](https://github.com/dotvestxyz/dotvest-docs) — technical documentation (optional)
-- [dotvest-compliance-sandbox](https://github.com/dotvestxyz/dotvest-compliance-sandbox) — mock Chainalysis integration (optional)
 
-## Contact
-- Email: founder@dotvest.publicvm.com
-- Twitter: [@dotvest_xyz](https://twitter.com/dotvest_xyz)
+### [dotvest-contracts](https://github.com/DotVest/dotvest-contracts)
+This repository contains the Solidity smart contracts for DotVest. It includes the tokenized equity contracts, orderbook logic, and future integrations with compliance tools. Built with Hardhat and OpenZeppelin.
 
-## License
-MIT — see [LICENSE](./LICENSE)
+---
+
+### [dotvest-frontend](https://github.com/DotVest/dotvest-frontend)
+The web application frontend for DotVest. Built with React (Next.js), TailwindCSS, Ethers.js and Wagmi. Enables users to connect wallets, view portfolios, and trade tokenized stocks.
+
+---
+
+### [dotvest-broker-gateway](https://github.com/DotVest/dotvest-broker-gateway)
+The backend service that bridges DotVest with off-chain brokers/custodians. Provides APIs for holdings, onboarding simulations, and integration with custodians like FBN or Stanbic.
+
+---
+
+### [dotvest-docs](https://github.com/DotVest/dotvest-docs) *(optional)*
+This repo hosts DotVest’s technical documentation, including architecture diagrams, contract ABIs, and integration guides.
+
+---
+
+### [dotvest-compliance-sandbox](https://github.com/DotVest/dotvest-compliance-sandbox) *(optional)*
+A mock Chainalysis sandbox for testing compliance integration with DotVest's smart contracts and APIs without interacting with live compliance systems.
